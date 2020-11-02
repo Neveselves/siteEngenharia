@@ -1,0 +1,184 @@
+body, html{
+    overflow-x: hidden;   
+    font-weight: 400;
+    letter-spacing: .4px;
+    font-family: HelveticaNeueW01-45Ligh,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  
+}
+/* menu top */
+.menu{
+    background: black !important;
+    color: #fff !important;
+    height: auto !important;
+    width: 100% !important;
+    min-height: 100px !important;
+}
+.menu a{
+    color: #fff !important;
+    cursor: pointer !important;
+    margin-top: 30px !important;
+
+}
+.menu a:hover{
+    color: #edcd1f !important;
+}
+.menu ul li {    
+    position: relative !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    margin-right: 30px !important;
+    padding: 0 0 0 30px !important;
+   
+}
+.navbar-brand img{
+
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+}
+h1{
+    font-size: small;
+}
+h3{
+    letter-spacing: 0.05em;
+    font-size: 55px !important;
+    line-height: 1.4em;
+}
+
+h5{
+    color: #edcd1f;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 1.4em;
+}
+.card-body{
+    background-color: #f7f7f7;
+}
+/* carroussel */
+#home img{
+    height: 655px;
+}
+
+/* projetos */
+
+.coluna-card-center{
+    margin-left: 32%;
+}
+.projetos{
+    text-align: center;
+}
+/* quem somos */
+.col-quem-somos{
+    background-color: #f7f7f7;
+}
+.img-background{
+    background-image: url("imagens/orcamento-contrucao-engenheiro-civil1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.quem-somos{
+    text-align: center;
+}
+
+/* servicos */
+
+.coluna-card-left{
+    float: right;
+  }
+  .coluna-card-center{
+    margin-left: 25%;
+  }
+  .servicos{
+      text-align: center;
+  }
+
+/* contato */
+.contato{
+    text-align: center;
+}
+.custom .navbar-toggler-icon {
+    background-image: url("imagens/menu-24px.svg");
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .cont {
+    display: inline-block;
+    cursor: pointer;    
+  }
+
+  .navegacao {
+    background: black;
+    text-align: center;
+  
+  }
+  .linha-rodape{
+    position: relative;
+    margin: 0px 0px 52px calc((100% - 980px) * 0.5);
+    left: 432px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+
+    box-sizing: border-box;
+    border-top: 10px solid rgba(237, 205, 31, 1);
+    height: 0;
+    width:118px
+  }
+   #ler-mais{
+       display: none;
+   }
+   #lerMais-constru{
+       display: none;
+   }
+   #lerMais-Incorp{
+       display: none;
+   }
+   #lermias-retrof{
+       display: none;
+   }
+   #lerMais-modali{
+       display: none;
+   }
+   .card-body a {
+     cursor: pointer;
+    font-weight: bold;
+   }
+   .card-body p {
+       color: #3B3A3A
+    
+   }
+   .botton-text{
+       padding-bottom: 16px;
+   }
+   .seg-linhaServicos{
+       margin-top: 20px;
+   }
+
+
+   footer{
+       padding-bottom: 50px;
+   }
